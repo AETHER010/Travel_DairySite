@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: url("/images/img-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-image: url("/images/img-1.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background: linear-gradient(0deg, rgba(26, 25, 25, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/img-8.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.sign-up Button {
+  background-color: black;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 20px;
+  margin-left: 23px;
+}
+
+.sign-up Button:hover {
+  background-color: rgb(243, 240, 240);
+  color: rgb(2, 2, 2);
+  border: 2px solid #fff;
+}
+
+.sign-up form {
+  height: 500px;
+  width: 400px;
+  background: linear-gradient(0deg, rgba(26, 25, 25, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/%D0%A1%D0%B2%D0%B5%D1%82_%D0%BE%D1%82_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D0%B8_-_panoramio.jpg/640px-%D0%A1%D0%B2%D0%B5%D1%82_%D0%BE%D1%82_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D0%B8_-_panoramio.jpg");
+}
+
+.sign-up .form-label {
+  color: #fff;
+  font-size: 20px;
+  margin: 8px;
+}
+
+.sign-up .form-control {
+  font-size: 18px;
+  left: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .sign-up Button {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .sign-up Button {
+    width: 84%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .sign-up Button {
+    width: 84%;
+  }
+}
