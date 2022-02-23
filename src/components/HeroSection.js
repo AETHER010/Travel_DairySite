@@ -18,10 +18,10 @@ function HeroSection() {
           GET STARTED
         </Button>
         <Button
-          className='btns'
+          className='btns btn2'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
+          onClick={console.log('hey lets goooo!!!')}
         >
           WATCH TRAILER <i className='far fa-play-circle' />
         </Button>
